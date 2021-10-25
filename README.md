@@ -11,7 +11,7 @@ The idea was [presented by Michael Stevens on VSauce](https://www.youtube.com/wa
     1. Pick two paper clips at random.
     
     2. Link them together and throw them back in the pile. 
-    If you grab paper clips that are already part of a chain, link ‘em anyway.
+       If you grab paper clips that are already part of a chain, link ‘em anyway.
     
     4. Repeat.
 
