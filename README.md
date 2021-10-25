@@ -1,7 +1,7 @@
 # PaperClips vs Zipf
 Modeling a PaperClip experiment to demonstrate Zipf's Law.
 
-The idea was [presented by Michael Stevens on VSauce](https://www.youtube.com/watch?time_continue=86&v=fCn8zs912OE) and was beautifully explained and performed by hand.
+The idea was [presented by Michael Stevens on VSauce](https://www.youtube.com/watch?v=fCn8zs912OE&t=827s) and was beautifully explained and performed by hand.
 
 The procedure goes as follows:
 
