@@ -22,10 +22,9 @@ if laid down side by side, longest to shortest, they should like the graph of th
 Example Output:
 ![Example Output](https://raw.githubusercontent.com/nitasn/PaperClips_vs_Zipf/main/output-screenshot.png "Example Output")
 
-Also,
 The code uses the *Disjoint-Set* data structure (a.k.a *Union-Find*), 
-hence each **pick-and-join operation takes O(1)** amortized time... nearly ¹.
+hence each **pick-and-join operation takes O(1)** amortized time (well... almost ¹).
 
 *¹ Actually it's `O(log* n)` (the "iterated logarithm" of n). <br />
-But this function grows slower than extremely slow;
+But this function grows slower than extremely slow; <br />
 if `n < 2^65,536` (a number with 19,729 digits) then `log*(n) < 5`*.
