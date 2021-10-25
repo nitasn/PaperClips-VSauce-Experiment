@@ -26,4 +26,4 @@ Also,
 The code uses the *Disjoint-Set* data structure (a.k.a *Union-Find*), 
 hence each **pick-and-join operation takes O(1)** amortized time (*).
 
-(*) assuming the number of paper clips is anything reasonable, like, for example, the number of particles in the observable universe.
+*(*) assuming the number of paper clips is anything reasonable, like, for example, the number of particles in the observable universe.
