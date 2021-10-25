@@ -5,9 +5,13 @@ The idea was [presented by Michael Stevens on VSauce](https://www.youtube.com/wa
 
 
 The procedure goes as follows:
+
     0. Start with a pile of unconnected paper clips.
+    
     1. Pick two paper clips at random.
+    
     2. Link them together and throw them back in the pile. If you grab paper clips that are already part of a chain, link ‘em anyway.
+    
     4. Repeat.
 
 
