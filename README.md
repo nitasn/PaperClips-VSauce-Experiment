@@ -26,4 +26,4 @@ Also,
 The code uses the *Disjoint-Set* data structure (a.k.a *Union-Find*), 
 hence each **pick-and-join operation takes O(1)** amortized time¹.
 
-*¹ assuming the number of paper clips is anything reasonable, like, for example, the number of particles in the observable universe.*
+*¹ Actually it's `O(log*n)`. But log* grows slower than extremely slow; for n < 2^65,536 (a number with 19,729 digits), log*(n) < 5*
