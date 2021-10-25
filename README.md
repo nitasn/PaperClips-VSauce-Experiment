@@ -26,5 +26,5 @@ Also,
 The code uses the *Disjoint-Set* data structure (a.k.a *Union-Find*), 
 hence each **pick-and-join operation takes O(1)** amortized time... nearly ¹.
 
-*¹ Actually it's `O(log* n)`. But `log*` grows slower than extremely slow;
+*¹ Actually it's `O(log* n)`. But log&ast; grows slower than extremely slow;
 if `n < 2^65,536` (a number with 19,729 digits) then `log*(n) < 5`*.
