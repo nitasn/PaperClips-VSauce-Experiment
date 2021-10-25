@@ -11,9 +11,9 @@ The procedure goes as follows:
     
     2. Link them together and throw them back in the pile. 
     
-    If each of them is already part of its own chain, connect the two chains into a one long chain.
+       If each of them is already part of its own chain, connect the two chains into a one long chain.
     
-    4. Repeat.
+    3. Repeat.
 
 
 The final chains' lengths should have a pretty Zipf'ian distribution, i.e.
