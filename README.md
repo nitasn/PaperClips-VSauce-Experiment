@@ -21,3 +21,9 @@ if laid down side by side, longest to shortest, they should like the graph of th
 
 Example Output:
 ![Example Output](https://raw.githubusercontent.com/nitasn/PaperClips_vs_Zipf/main/output-screenshot.png "Example Output")
+
+Also,
+The code uses the *Disjoint-Set* data structure (a.k.a *Union-Find*), 
+hence each **pick-and-join operation takes O(1)** amortized time (*).
+
+(*) assuming the number of paper clips is anything reasonable, like, for example, the number of particles in the observable universe.
