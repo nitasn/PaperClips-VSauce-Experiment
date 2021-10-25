@@ -10,12 +10,12 @@ the procedure goes as follows:
 
     2. link them together (if a paperclip already belongs to a chain, make the chain longer).
 
-    3. drop the new (or prolonged) chain back to the pile.
+    3. drop the new (or extended) chain back to the pile.
 
-    4. repeat. a couple of times. about half the number of paper clips (? how many times, really?)
+    4. repeat. a couple of times. about half the number of paper clips.
 
 
-the final chains' lengths should have a pretty zipf'ly distribution, i.e.
+the final chains' lengths should have a pretty zipf'ian distribution, i.e.
 if laid down side by side, longest to shortest, it should like the graph of the function f(x) = 1/x * constant
 """
 
@@ -26,7 +26,7 @@ CHAINS_TO_PLOT = 90  # only draw this number of the first longest chains
 
 """
 TL;DR
-every pick-up-&-link operation is O(1) (amortized).
+every pick-up-&-link operation is about O(1) (amortized time).
 
 a pile is modeled using an upside down tree:
 the root's address (__id__) is the name of the pile;
@@ -49,7 +49,7 @@ class PaperClip:
 
     def __init__(self):
         self.parent = self
-        self.rank = 0  # normal rank, i.e. 1 + height of highest son.
+        self.height = 0  # normal tree-node height, i.e. height of highest son + 1
 
     def get_root(self):
         """
@@ -77,15 +77,15 @@ class PaperClip:
 
         if self_root != their_root:
 
-            if self_root.rank > their_root.rank:
+            if self_root.height > their_root.height:
                 their_root.parent = self_root
 
-            elif their_root.rank > self_root.rank:
+            elif their_root.height > self_root.height:
                 self_root.parent = their_root
 
             else:  # if self_root.rank == their_root.rank:
                 their_root.parent = self_root
-                self_root.rank += 1
+                self_root.height += 1
 
 
 def merge_some_chains():
