@@ -7,11 +7,11 @@ The procedure goes as follows:
 
     0. Start with a pile of unconnected paper clips.
     
-    1. Pick two paper clips at random.
+    1. Pick any two paper clips at random.
     
     2. Link them together and throw them back in the pile. 
     
-       If each of them is already part of its own chain, connect the two chains into one long chain.
+       If any of them is already part of a chain - lengthen the chain by connecting to its end.
     
     3. Repeat.
 
