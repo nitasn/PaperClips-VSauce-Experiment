@@ -23,7 +23,4 @@ Example Output:
 ![Example Output](https://raw.githubusercontent.com/nitasn/PaperClips_vs_Zipf/main/output-screenshot.png "Example Output")
 
 The code uses the *Disjoint-Set* data structure (a.k.a *Union-Find*), <br />
-hence each **pick-and-join operation takes O(1)** amortized time (well... almost ¹).
-
-*¹ Actually it's `O(log* n)` (the "iterated logarithm" of n). But this function grows slower than extremely slow; <br />
-If `n < 2⁶⁵˒⁵³⁶` (a number with 19,729 digits) then `log*(n) < 5`*.
+hence each **pick-and-join operation takes O(1)** amortized time [(wiki)](https://en.wikipedia.org/wiki/Disjoint-set_data_structure).
